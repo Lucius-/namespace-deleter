@@ -13,7 +13,7 @@
 # limitations under the License.
 
 TARGET = namespace-deleter
-VERSION = v0.0.2
+VERSION ?= latest
 IMAGE = gcr.io/heptio-images/$(TARGET)
 GOTARGET = github.com/heptio/$(TARGET)
 DOCKER ?= docker

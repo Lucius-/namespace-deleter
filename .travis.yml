@@ -1,0 +1,6 @@
+language: go
+services:
+  - docker
+install: true
+
+script: make image
